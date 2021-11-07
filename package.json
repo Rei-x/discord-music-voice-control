@@ -1,0 +1,27 @@
+{
+  "name": "discord-alexa",
+  "version": "1.0.0",
+  "description": "Discord speech recognition bot for playing music",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rei-x/discord-alexa.git"
+  },
+  "keywords": [],
+  "author": "Bartosz Gotowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rei-x/discord-alexa/issues"
+  },
+  "homepage": "https://github.com/Rei-x/discord-alexa#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.6.0",
+    "discord-music-player": "^8.3.0",
+    "discord-speech-recognition": "^2.1.1",
+    "discord.js": "^13.3.1",
+    "libsodium-wrappers": "^0.7.9"
+  }
+}
