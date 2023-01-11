@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/Rei-x/discord-alexa#readme",
   "dependencies": {
-    "@discordjs/voice": "^0.6.0",
-    "discord-music-player": "^8.3.0",
-    "discord-speech-recognition": "^2.1.1",
-    "discord.js": "^13.3.1",
-    "libsodium-wrappers": "^0.7.9"
+    "@discordjs/opus": "^0.8.0",
+    "discord-music-player": "^9.1.1",
+    "discord-speech-recognition": "^3.1.1",
+    "discord.js": "^14.7.1"
+  },
+  "devDependencies": {
+    "isomorphic-unfetch": "^4.0.2"
   }
 }

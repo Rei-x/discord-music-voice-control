@@ -18,6 +18,11 @@ cd discord-alexa
 npm install
 ```
 
+## Bot setup
+You need to enable message content for bot, so it can react to messages in chat (like `?join`).
+
+![](https://i.imgur.com/06doHXE.png)
+
 ## How to run it?
 
 ```sh

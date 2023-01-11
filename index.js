@@ -1,13 +1,14 @@
-const { Client, Intents } = require("discord.js");
+const { Client, GatewayIntentBits } = require("discord.js");
 const { addSpeechEvent } = require("discord-speech-recognition");
 const { Player } = require("discord-music-player");
 const config = require("./config.json");
 
 const client = new Client({
   intents: [
-    Intents.FLAGS.GUILDS,
-    Intents.FLAGS.GUILD_VOICE_STATES,
-    Intents.FLAGS.GUILD_MESSAGES,
+    GatewayIntentBits.GuildVoiceStates,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.MessageContent,
   ],
 });
 
